@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
+<<<<<<< HEAD
 <eagle version="7.0.0">
+=======
+<eagle version="6.5.0">
+>>>>>>> 47bfcb0a1865b3b173ca841573b2b7c4bed2769c
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,6 +12,7 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
+<<<<<<< HEAD
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
@@ -22,6 +27,22 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+=======
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+>>>>>>> 47bfcb0a1865b3b173ca841573b2b7c4bed2769c
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -37,7 +58,11 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<<<<<<< HEAD
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+=======
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+>>>>>>> 47bfcb0a1865b3b173ca841573b2b7c4bed2769c
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
@@ -105,10 +130,17 @@
 </layers>
 <board>
 <plain>
+<<<<<<< HEAD
 <wire x1="0" y1="0" x2="58.09" y2="0" width="0" layer="20"/>
 <wire x1="58.09" y1="0" x2="58.09" y2="39.36" width="0" layer="20"/>
 <wire x1="58.09" y1="39.36" x2="0" y2="39.36" width="0" layer="20"/>
 <wire x1="0" y1="39.36" x2="0" y2="0" width="0" layer="20"/>
+=======
+<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
+<wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
+<wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
+<wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
+>>>>>>> 47bfcb0a1865b3b173ca841573b2b7c4bed2769c
 <text x="17.78" y="3.81" size="1.778" layer="16" rot="MR0">Nam Tran</text>
 </plain>
 <libraries>
@@ -460,9 +492,12 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<<<<<<< HEAD
 <param name="AutoGrid" value="1"/>
 <param name="Efforts" value="0"/>
 <param name="TopRouterVariant" value="1"/>
+=======
+>>>>>>> 47bfcb0a1865b3b173ca841573b2b7c4bed2769c
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="0"/>
 <param name="PrefDir.2" value="0"/>
@@ -715,6 +750,19 @@ design rules under a new name.</description>
 <contactref element="ARDUINO" pad="13"/>
 <wire x1="44.45" y1="3.81" x2="49.53" y2="3.81" width="0.254" layer="16"/>
 </signal>
+<<<<<<< HEAD
+=======
+<signal name="N$4">
+<polygon width="0.254" layer="16" isolate="0.4064">
+<vertex x="1.27" y="35.56"/>
+<vertex x="0" y="35.56"/>
+<vertex x="0" y="0"/>
+<vertex x="53.34" y="0"/>
+<vertex x="53.34" y="1.27"/>
+<vertex x="53.34" y="35.56"/>
+</polygon>
+</signal>
+>>>>>>> 47bfcb0a1865b3b173ca841573b2b7c4bed2769c
 </signals>
 </board>
 </drawing>
